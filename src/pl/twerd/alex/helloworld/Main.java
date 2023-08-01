@@ -2,7 +2,6 @@ package pl.twerd.alex.helloworld;
 
 
 import pl.twerd.alex.helloworld.model.Cat;
-import pl.twerd.alex.helloworld.model.Man;
 
 public class Main {
 
@@ -17,7 +16,7 @@ public class Main {
         vaska.setName("Vasil");
         vaska.setType("Black");
 
-        Cat petia = new Cat(6, "Petia", "Ginger");
+        Cat petia = new Cat(6, "Petia", "Ginger", 2);
 
         System.out.println(fifi);
         System.out.println(vaska);
